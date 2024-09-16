@@ -46,3 +46,10 @@ Util.printTypeOf(lastName);
 Util.printTypeOf(age);
 Util.printTypeOf(isApproved);
 Util.printTypeOf(address);
+
+/*
+  Reference Type:
+    1. Object
+    2. Array
+    3. Function
+ */
