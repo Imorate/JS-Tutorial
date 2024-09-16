@@ -1,4 +1,4 @@
-class Util {
+export default class Util {
   /**
    * Prints the typeOf a variable on console
    *
@@ -8,5 +8,3 @@ class Util {
     console.log(`'${variable}' type of: ${typeof variable}`);
   }
 }
-
-export default Util;
