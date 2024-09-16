@@ -2,6 +2,7 @@
 // noinspection JSUnusedLocalSymbols
 
 import Util from '../Utils/Util.js';
+
 // Google Chrome console shortcut: Ctrl + Shift + J
 console.log('Hello World!');
 
