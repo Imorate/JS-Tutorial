@@ -10,8 +10,8 @@ const person = {
 Util.printTypeOf(person);
 
 // Dot notation
-console.log(`Person first name: ${person.firstName}`);
+console.log('Person first name:', person.firstName);
 
 // Bracket notation
 let objectField = 'lastName';
-console.log(`Person last name: ${person[objectField]}`);
+console.log('Person last name:', person[objectField]);

@@ -8,7 +8,7 @@ console.log('Hello World!');
 
 // When a variable doesn't initialize, the default value will be undefined
 let a;
-console.log(`'a' is ${a}`); //undefined
+console.log('\'a\' is', a); //undefined
 
 /*
   Variable names must start with a letter, an underscore (_) or a dollar sign ($)
@@ -26,7 +26,7 @@ console.log(`Multiple variable declaration [d = ${d}, e = ${e}]`);
 
 // Declaring constant
 const PI = 3.14;
-console.log(`PI = ${PI}`);
+console.log('PI = ', PI);
 
 /*
   Primitive / Value types:
