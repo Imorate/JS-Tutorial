@@ -1,5 +1,4 @@
-// noinspection JSUnusedAssignment
-// noinspection JSUnusedLocalSymbols
+// noinspection JSUnusedAssignment, JSUnusedLocalSymbols
 
 import Util from '../Utils/Util.js';
 
