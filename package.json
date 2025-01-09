@@ -2,6 +2,8 @@
   "name": "js-tutorial",
   "version": "1.0.0",
   "description": "JS tutorial",
+  "author": "Amir Mohammad Hl",
+  "license": "Apache-2.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,7 +15,5 @@
     "JS Tutorial",
     "JavaScript",
     "JavaScript Tutorial"
-  ],
-  "author": "Amir Mohammad Hl",
-  "license": "ISC"
+  ]
 }
