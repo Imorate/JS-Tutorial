@@ -44,10 +44,10 @@ let isApproved = false; // Boolean literal
 let address = null;
 
 Util.printTypeOf({ firstName });
-Util.printTypeOf({ lastName });
+Util.printTypeOf({ lastName }); // undefined is value and also a type
 Util.printTypeOf({ age });
 Util.printTypeOf({ isApproved });
-Util.printTypeOf({ address });
+Util.printTypeOf({ address }); // typeof null variable is an object
 
 /*
   Reference Type:
