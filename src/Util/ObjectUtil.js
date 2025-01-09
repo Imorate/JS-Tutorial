@@ -1,4 +1,4 @@
-export default class Util {
+class ObjectUtil {
   /**
    * Prints the typeOf a variable on console
    *
@@ -8,3 +8,5 @@ export default class Util {
     console.log(`'${variable}' type of: ${typeof variable}`);
   }
 }
+
+module.exports = ObjectUtil;

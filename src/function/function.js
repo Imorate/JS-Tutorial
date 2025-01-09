@@ -1,4 +1,4 @@
-import Util from '../Utils/Util.js';
+const Util = require('../Util/ObjectUtil');
 
 // Declare function without parameter
 function test() {

@@ -1,6 +1,6 @@
 // noinspection JSUnusedAssignment, JSUnusedLocalSymbols
 
-import Util from '../Utils/Util.js';
+const Util = require('../Util/ObjectUtil');
 
 // Google Chrome console shortcut: Ctrl + Shift + J
 console.log('Hello World!');
