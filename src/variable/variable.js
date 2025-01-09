@@ -7,7 +7,7 @@ console.log('Hello World!');
 
 // When a variable doesn't initialize, the default value will be undefined
 let a;
-console.log('\'a\' is', a); //undefined
+Util.printTypeOf({ a }); //undefined
 
 /*
   Variable names must start with a letter, an underscore (_) or a dollar sign ($)

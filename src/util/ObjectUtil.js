@@ -6,7 +6,7 @@ class ObjectUtil {
    */
   static printTypeOf(variable) {
     for (const [key, value] of Object.entries(variable)) {
-      console.log(`'${key}' = '${value}' type of: ${typeof value}`);
+      console.log(`'${key}' = '${value}', type of: ${typeof value}`);
     }
   }
 }
