@@ -10,8 +10,8 @@ let a;
 Util.printTypeOf({ a }); //undefined
 
 /*
-  Variable names must start with a letter, an underscore (_) or a dollar sign ($)
-  Variable names are case-sensitive and must not contain hyphen(-) and spaces
+  Variable names must start with a letter, an underscore (_) or a dollar sign ($).
+  Variable names are case-sensitive and must not contain hyphen(-) and spaces.
  */
 let _;
 let $;
@@ -56,5 +56,5 @@ Util.printTypeOf({ address }); // typeof null variable is an object
     3. Function
 
   JS is a statically-typed language and the typeof a variable is inferred
-  on runtime
+  on runtime.
  */
