@@ -1,6 +1,9 @@
 const Util = require('../util/ObjectUtil');
 
-// Declare object
+/*
+  Declare object
+  {} symbols are object literal
+ */
 const person = {
   firstName: 'John',
   lastName: 'Doe',
