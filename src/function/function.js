@@ -1,4 +1,4 @@
-const Util = require('../Util/ObjectUtil');
+const Util = require('../util/ObjectUtil');
 
 // Declare function without parameter
 function test() {
@@ -10,8 +10,8 @@ function square(num) {
   return `Inside square function, value: ${num * num}`;
 }
 
-Util.printTypeOf(test);
-Util.printTypeOf(square);
+Util.printTypeOf({ test });
+Util.printTypeOf({ square });
 
 // Invoke test function
 test();

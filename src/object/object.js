@@ -1,4 +1,4 @@
-const Util = require('../Util/ObjectUtil');
+const Util = require('../util/ObjectUtil');
 
 // Declare object
 const person = {
@@ -7,7 +7,7 @@ const person = {
   age: 20
 };
 
-Util.printTypeOf(person);
+Util.printTypeOf({ person });
 
 // Dot notation
 console.log('Person first name:', person.firstName);

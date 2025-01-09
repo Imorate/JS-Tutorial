@@ -1,6 +1,6 @@
 // noinspection JSUnusedAssignment, JSUnusedLocalSymbols
 
-const Util = require('../Util/ObjectUtil');
+const Util = require('../util/ObjectUtil');
 
 // Google Chrome console shortcut: Ctrl + Shift + J
 console.log('Hello World!');
@@ -41,11 +41,11 @@ let age = 20; // Number literal
 let isApproved = false; // Boolean literal
 let address = null;
 
-Util.printTypeOf(firstName);
-Util.printTypeOf(lastName);
-Util.printTypeOf(age);
-Util.printTypeOf(isApproved);
-Util.printTypeOf(address);
+Util.printTypeOf({ firstName });
+Util.printTypeOf({ lastName });
+Util.printTypeOf({ age });
+Util.printTypeOf({ isApproved });
+Util.printTypeOf({ address });
 
 /*
   Reference Type:

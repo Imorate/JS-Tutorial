@@ -1,9 +1,9 @@
-const Util = require('../Util/ObjectUtil');
+const Util = require('../util/ObjectUtil');
 
 // Declare array
 let colors = ['green'];
 
-Util.printTypeOf(colors);
+Util.printTypeOf({ colors });
 
 // Access to arrays length
 console.log('Colors length:', colors.length);
@@ -21,4 +21,4 @@ console.log('First colors element:', colors[0]);
 colors.push('blue');
 
 //Print whole array
-console.log(colors);
+Util.printTypeOf({ colors });
