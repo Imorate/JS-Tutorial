@@ -1,7 +1,9 @@
 const Util = require('../util/ObjectUtil');
 
-// Declare array
-let colors = ['green'];
+/*
+  Declare array with array literal []
+ */
+let colors = ['red'];
 
 Util.printTypeOf({ colors });
 
@@ -9,10 +11,13 @@ Util.printTypeOf({ colors });
 console.log('Colors length:', colors.length);
 
 // Change first element
-colors[0] = 'red';
+colors[1] = 'green';
 
 // Add new element
-colors[1] = 'blue';
+colors[2] = 'blue';
+
+// Remove last array element with pop function
+colors.pop();
 
 // Access first element at idx 0
 console.log('First colors element:', colors[0]);
@@ -22,3 +27,8 @@ colors.push('blue');
 
 //Print whole array
 Util.printTypeOf({ colors });
+
+/*
+  TypeOf array is object.
+  typeOf array's elements can change during runtime and it's dynamic.
+ */
