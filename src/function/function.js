@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 const Util = require('../util/ObjectUtil');
 
 // Declare function without parameter
