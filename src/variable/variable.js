@@ -55,6 +55,6 @@ Util.printTypeOf({ address }); // typeof null variable is an object
     2. Array
     3. Function
 
-  JS is a statically-typed language and the typeof a variable is inferred
+  JS is a dynamically-typed language and the typeof a variable is inferred
   on runtime.
  */
